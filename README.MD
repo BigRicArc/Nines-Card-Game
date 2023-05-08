@@ -3,6 +3,8 @@ Nines on the Terminal
 
 This project is meant to be a simple, small (less then 300 lines of python!) and text-based implementation of the some what popular trick taking game!
 
+![card picture](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pile_of_playing_cards.jpg/800px-Pile_of_playing_cards.jpg)
+
 Rules of Nines
 --------------
 
