@@ -19,6 +19,8 @@ def main():
         scorePrint(score)
         tricks = [0,0,0]
         game = deal(shuffle(cards))
+        trumpPrint(trumpCard)
+        game = dummySwitch(game)
         while len(game[0]) != 0:
             player = winner
             table = []
@@ -55,6 +57,20 @@ def main():
     
     won = score.index(min(score))
     print('Player', won, 'HAS WON!')
+
+def dummySwitch(lst):
+    print('This is Your Hand:')
+    handPrint(lst[0])
+    user = input('Would you like to switch it with the Dummy? (y/n) ')
+    while user != 'y' and user != 'n':
+        print('Must by a \'y\' or \'n\'')
+        user = input('Would you like to switch it with the Dummy? (y/n) ')
+    if user == 'y':
+        lst.append(lst[0])
+        lst[0] = lst[3]
+        del lst[3]
+    print('-' *10)
+    return lst 
 
 def scorePrint(lst):
     print('Current Score: ')
