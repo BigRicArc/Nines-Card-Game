@@ -17,31 +17,49 @@ How it works in this version
 
 At the start of a hand the player will be asked if they wish to switch to the dummy. The player then starts the game. During a round the computer will always show what (if any thing) is on the table, followed by the players hand and finally a prompt to type in a card selection. The card selection is simple, but not necessarily intuitive. The player must first declare what suit is to be played followed by what number from that suit will be played. The suit is just the first letter in lower case from the name of the suit. The number is just number printed on the card, except with numbers over 10 (because hex is cool).
 
-# Suit Table
+### Suit Table
 
 Spades = s
+
 Hearts = h
+
 Diamonds = d
+
 Clubs = c
 
-# Number Table
+### Number Table
 2 = 2
+
 3 = 3
+
 4 = 4
+
 5 = 5
+
 6 = 6
+
 7 = 7
+
 8 = 8
+
 9 = 9
+
 10 = a
+
 Jack = b
+
 Queen = d
+
 King = e
+
 Ace = 1
 
-# Examples of Correct Input
+### Examples of Correct Input
 
 Ace of Spades = s1
+
 9 of Diamonds = d9
+
 10 of hearts = ha
+
 King of Clubs = ce
